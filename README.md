@@ -18,7 +18,7 @@ To run the To-Do List application locally, follow these steps:
 
 1. Clone the repository:
 
-   git clone https://github.com/yourusername/todo-list.git
+   git clone (https://github.com/tanayak07/To-Do-List)
 
 2. Open the project folder in your preferred code editor.
 
