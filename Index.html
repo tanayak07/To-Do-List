@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My To-Do App</title>
+    <!-- Title of the web page -->
+    <meta charset="UTF-8" /> <!-- Character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Responsive design for mobile devices -->
+    <link rel="stylesheet" href="styles.css" /> <!-- Link to the external CSS stylesheet -->
+  </head>
+  <body>
+    <section class="container"> <!-- Main container for the to-do list application -->
+      <div class="heading"> <!-- Container for the heading section -->
+        <img class="heading__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/756881/laptop.svg" alt="Laptop Icon"> <!-- Image for the heading -->
+        <h1 class="heading__title">To-Do List</h1> <!-- Title of the application -->
+      </div>
+
+      <form class="form"> <!-- Form for adding new to-do items -->
+        <div>
+          <label class="form__label" for="todo">~ Today I need to ~</label> <!-- Label for the input field -->
+          <input
+            class="form__input"
+            type="text"
+            id="todo"
+            name="to-do"
+            placeholder="Enter a task..."
+            required
+          /> <!-- Properly closed input -->
+          <button class="button" type="submit"><span>Submit</span></button> <!-- Submit button for the form -->
+        </div>
+      </form>
+
+      <div>
+        <ul class="toDoList"> <!-- Unordered list to display the to-do items -->
+        </ul>
+      </div>
+    </section>
+
+    <script src="script.js"></script> <!-- Link to the external JavaScript file -->
+  </body>
+</html>
